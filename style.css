@@ -1,0 +1,102 @@
+
+
+body {
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+.navbar {
+
+    background: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar .logo {
+    font-weight: bold;
+    color: #0b3c5d;
+}
+
+.navbar nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #555;
+}
+
+.navbar nav a.active {
+    background: #1d72b8;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6px;
+    width: 100%;
+    background: #f5b400;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+    margin-top: 20px;
+}
+
+.card span {
+    color: #f5b400;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 22px;
+}
+
+footer {
+    background: #0b3c5d;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
